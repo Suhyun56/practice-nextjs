@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import utilStyles from '../../styles/utils.module.css';
-import Layout from '../../components/layout.js';
-import { getAllPostIds, getPostData } from '../../lib/posts.js';
-import Date from '../../components/date.js';
+import Layout from '../../components/container';
+import { getAllPostIds, getPostData } from '../../lib/posts';
+import Date from '../../components/date';
 
 export default function Post({ postData }) {
   return (
